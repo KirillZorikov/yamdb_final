@@ -7,14 +7,9 @@ from api_users.permissions import IsAdminOrReadOnly, IsAuthorOrStaffOrReadOnly
 
 from .filters import TitleFilter
 from .models import Category, Genre, Review, Title
-from .serializers import (
-    CategorySerializer,
-    CommentSerializer,
-    GenreSerializer,
-    ReviewSerializer,
-    TitleReadSerializer,
-    TitleWriteSerializer,
-)
+from .serializers import (CategorySerializer, CommentSerializer,
+                          GenreSerializer, ReviewSerializer,
+                          TitleReadSerializer, TitleWriteSerializer)
 
 
 class CustomModelViewSet(

@@ -10,11 +10,8 @@ from rest_framework_simplejwt.tokens import AccessToken
 
 from .models import User
 from .permissions import IsAdmin
-from .serializers import (
-    CustomTokenObtainSerializer,
-    EmailSerializer,
-    UserSerializer,
-)
+from .serializers import (CustomTokenObtainSerializer, EmailSerializer,
+                          UserSerializer)
 
 
 class UserViewSet(viewsets.ModelViewSet):
