@@ -72,4 +72,5 @@ jobs:
             echo DB_PASSWORD=${{ secrets.DB_PASSWORD }} >> env/.env.prod
             echo DB_PORT=${{ secrets.DB_PORT }} >> env/.env.prod
             echo DB_USER=${{ secrets.DB_USER }} >> env/.env.prod
+            echo SECRET_KEY="${{ secrets.SECRET_KEY }}" >> env/.env.prod
             sudo docker-compose up -d

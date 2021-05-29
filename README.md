@@ -3,7 +3,7 @@
 The YaMDb project collects user reviews of the titles. 
 Titles can be of various categories. For example: "Books", "Movies", "Music".
 
-Production version on a running server: http://84.252.132.216/
+Production version on a running server: http://84.252.132.216/admin
 
 Workflow status badge:
 ![yamdb_workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
