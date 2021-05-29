@@ -57,10 +57,9 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
-          stack_file_name: docker-compose.yaml
           script: |
-            sudo docker pull kzorikov/yamdb_final:v1
             sudo docker-compose down
+            sudo docker pull kzorikov/yamdb_final:v1
             sudo rm -rf env
             mkdir env
             touch env/.env.db env/.env.prod
