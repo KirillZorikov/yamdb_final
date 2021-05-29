@@ -11,6 +11,16 @@ Workflow status badge:
 You can download docker images from the following link:
 [yamdb final](https://hub.docker.com/repository/docker/kzorikov/yamdb_final).
 
+## Project setup
+```
+docker-compose build
+```
+
+## Project run
+```
+docker-compose up
+```
+
 ## Apply migrations
 ```
 docker-compose exec yamdb_prod python manage.py migrate
