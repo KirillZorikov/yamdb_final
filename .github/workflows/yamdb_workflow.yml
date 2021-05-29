@@ -58,8 +58,9 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            sudo docker-compose down
             sudo docker pull kzorikov/yamdb_final:v1
+            sudo docker-compose stop
+            sudo docker-compose rm -f yamdb_prod
             sudo rm -rf env
             mkdir env
             touch env/.env.db env/.env.prod
