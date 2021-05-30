@@ -36,7 +36,6 @@ RUN apt-get -yqq update && apt-get install -yqq --no-install-recommends \
 COPY --from=builder ${BUILDERWORKDIR}/wheels /wheels
 COPY --from=builder ${BUILDERWORKDIR}/requirements.txt .
 RUN pip install --no-cache /wheels/*
-# RUN pip install -r requirements.txt  # needed for pass the project tests
 
 COPY . ${PROJECTPATH}
 
