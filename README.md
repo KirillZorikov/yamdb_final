@@ -5,6 +5,8 @@ Titles can be of various categories. For example: "Books", "Movies", "Music".
 
 Production version on a running server: http://kz-projects.tk/yamdb/api/v1
 
+Api documentation: http://kz-projects.tk/yamdb/redoc
+
 Workflow status badge:
 [![yamdb_workflow](https://github.com/KirillZorikov/yamdb_final/workflows/yamdb_workflow/badge.svg)](https://github.com/KirillZorikov/yamdb_final/actions)
 

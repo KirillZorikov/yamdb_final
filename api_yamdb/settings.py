@@ -7,7 +7,7 @@ DEBUG = False
 
 SECRET_KEY = os.environ.get('SECRET_KEY', 'fdsdsd&&#HSJ')
 
-ALLOWED_HOSTS = ['127.0.0.1', '84.252.132.216', '0.0.0.0', 'yamdb']
+ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS').split(' ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -92,14 +92,16 @@ USE_L10N = True
 
 USE_TZ = True
 
-STATIC_URL = '/static/'
+PROJECT_NAME = 'yamdb'
+
+STATIC_URL = f'/{PROJECT_NAME}/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_URL = f'/{PROJECT_NAME}/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CORS_ORIGIN_ALLOW_ALL = True
-CORS_URLS_REGEX = r'^/api/.*$'
+CORS_URLS_REGEX = r'^/yamdb/api/.*$'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [

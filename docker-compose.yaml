@@ -2,16 +2,18 @@ version: '3.7'
 
 services:
   yamdb_prod:
+    build: ./
     image: kzorikov/yamdb_final:v1
+    command: gunicorn api_yamdb.wsgi:application --bind 0.0.0.0:8000
     restart: always
     depends_on:
-      - db
+      - db_yamdb
     volumes:
       - static_value:/home/yamdb/api_yamdb/static/
       - media_value:/home/yamdb/api_yamdb/media/
     env_file:
       - ./env/.env.prod
-  db:
+  db_yamdb:
     image: postgres:12.0-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data/
