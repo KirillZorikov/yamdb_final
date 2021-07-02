@@ -3,7 +3,7 @@
 The YaMDb project collects user reviews of the titles. 
 Titles can be of various categories. For example: "Books", "Movies", "Music".
 
-Production version on a running server: http://kz-projects.tk/yamdb/api/v1
+Production version on a running server: http://kz-api.tk/yamdb/api/v1
 
 Api documentation: http://kz-projects.tk/yamdb/redoc
 
