@@ -14,9 +14,7 @@ With this project, I learned how to work with:
 ### Project links:
 
 * Api: https://kz-api.tk/yamdb/api/v1
-
 * Api documentation: https://kz-api.tk/yamdb/redoc
-
 * Docker image:
 [yamdb_final](https://hub.docker.com/repository/docker/kzorikov/yamdb_final)
 
