@@ -21,13 +21,14 @@ With this project, I learned how to work with:
 
 ### Tech:
 
-* Python 3.8.5
+* [Python 3.8.5](https://www.python.org/)
+* [Django 3.0.5](https://www.djangoproject.com/) 
+* [DRF](https://www.django-rest-framework.org/)
+* [Nginx](https://www.nginx.com/)
+* [Gunicorn](https://gunicorn.org/)
+* [Docker](https://www.docker.com/)
 
-* Django 3.0.5 
-
-* DRF
-
-*See the full list of dependencies here: [requirements.txt](https://github.com/KirillZorikov/yamdb_final/blob/master/requirements.txt)*
+*See the full list of project dependencies here: [requirements.txt](https://github.com/KirillZorikov/yamdb_final/blob/master/requirements.txt)*
 
 ## Project setup
 ```
