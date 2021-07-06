@@ -31,11 +31,6 @@ With this project, I learned how to work with:
 
 *See the full list of project dependencies here: [requirements.txt](https://github.com/KirillZorikov/yamdb_final/blob/master/requirements.txt)*
 
-## Project setup
-```
-docker-compose build
-```
-
 ## Project run
 ```
 docker-compose up
