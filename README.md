@@ -9,6 +9,7 @@ With this project, I learned how to work with:
 
 * [Custom permissions](https://github.com/KirillZorikov/yamdb_final/blob/master/api_users/permissions.py)
 * [Custom JWT auth](https://github.com/KirillZorikov/yamdb_final/blob/master/api_users/views.py)
+* GitHub Actions
 
 ### Project links:
 
