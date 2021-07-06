@@ -1,17 +1,33 @@
 # api_yamdb
 
+[![yamdb_workflow](https://github.com/KirillZorikov/yamdb_final/workflows/yamdb_workflow/badge.svg)](https://github.com/KirillZorikov/yamdb_final/actions)
+
 The YaMDb project collects user reviews of the titles. 
 Titles can be of various categories. For example: "Books", "Movies", "Music".
 
-Production version on a running server: http://kz-api.tk/yamdb/api/v1
+With this project, I learned how to work with:
 
-Api documentation: http://kz-projects.tk/yamdb/redoc
+* [Custom permissions](https://github.com/KirillZorikov/yamdb_final/blob/master/api_users/permissions.py)
+* [Custom JWT auth](https://github.com/KirillZorikov/yamdb_final/blob/master/api_users/views.py)
 
-Workflow status badge:
-[![yamdb_workflow](https://github.com/KirillZorikov/yamdb_final/workflows/yamdb_workflow/badge.svg)](https://github.com/KirillZorikov/yamdb_final/actions)
+### Project links:
 
-You can download docker images from the following link:
-[yamdb final](https://hub.docker.com/repository/docker/kzorikov/yamdb_final).
+* Api: https://kz-api.tk/yamdb/api/v1
+
+* Api documentation: https://kz-api.tk/yamdb/redoc
+
+* Docker image:
+[yamdb_final](https://hub.docker.com/repository/docker/kzorikov/yamdb_final)
+
+###Tech:
+
+* Python 3.8.5
+
+* Django 3.0.5 
+
+* DRF
+
+*See the full list of dependencies here: [requirements.txt](https://github.com/KirillZorikov/yamdb_final/blob/master/requirements.txt)*
 
 ## Project setup
 ```
