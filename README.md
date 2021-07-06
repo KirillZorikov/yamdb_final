@@ -31,27 +31,29 @@ With this project, I learned how to work with:
 
 *See the full list of project dependencies here: [requirements.txt](https://github.com/KirillZorikov/yamdb_final/blob/master/requirements.txt)*
 
-## Project run
+## Project deployment
+
+### Project run
 ```
 docker-compose up
 ```
 
-## Apply migrations
+### Apply migrations
 ```
 docker-compose exec yamdb_prod python manage.py migrate
 ```
 
-## Collect static
+### Collect static
 ```
 docker-compose exec yamdb_prod python manage.py collectstatic
 ```
 
-## Create superuser
+### Create superuser
 ```
 docker-compose exec yamdb_prod python manage.py createsuperuser
 ```
 
-## Fill the database with dummy data
+### Fill the database with dummy data
 ```
 docker-compose exec yamdb_prod python manage.py populate_db
 or
