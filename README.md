@@ -19,7 +19,7 @@ With this project, I learned how to work with:
 * Docker image:
 [yamdb_final](https://hub.docker.com/repository/docker/kzorikov/yamdb_final)
 
-###Tech:
+### Tech:
 
 * Python 3.8.5
 
